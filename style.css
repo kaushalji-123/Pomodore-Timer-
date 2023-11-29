@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: uniform;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: black; */
+
+}
+.wrapper{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.vista-bg{
+    background-image: url("https://media.istockphoto.com/id/478627080/photo/evening-view-of-ama-dablam.jpg?s=2048x2048&w=is&k=20&c=BUSErYq5yWkihlZF4oXUWywqU3E1kmNzp_Y4qz-yy70=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering:pixelated;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.7s ease-in-out;
+}
+
+.feh-pompdoro{
+    border: 1px solid rebeccapurple;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    max-width: 350px;
+    padding: 55px 25px 25px 25px;
+    border-radius: 20px;
+    background: rgba(red, green, blue, alpha);
+    box-shadow: 0 4px 30px black;
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid grey;
+}
